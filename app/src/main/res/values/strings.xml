@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Will I Pass?</string>
+
+    <string name="prompt_course">Enter Course Name</string>
+
+    <string name="prompt_grade">Enter Grade</string>
+
+    <string name="prompt_weight">Enter Weight</string>
+
+
+
+
+</resources>

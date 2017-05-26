@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout"
+    android:layout_width="fill_parent"
+    android:stretchColumns="0,1,2"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:id="@+id/tableRowinit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/editTextt"
+            android:layout_span="3"
+            android:text="This is the GPA Calculator" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textViewcol1"
+            android:text="Course"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+        <TextView
+            android:id="@+id/textViewcol2"
+            android:text="Grade"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+        <TextView
+            android:id="@+id/textViewcol3"
+            android:text="Weight"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+
+
+    </TableRow>
+    <!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <EditText
+            android:id="@+id/EditText11"
+            android:hint="@string/prompt_course"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/EditText12"
+            android:hint="@string/prompt_grade"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/EditText13"
+            android:hint="@string/prompt_weight"
+            android:textSize="16sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <EditText
+            android:id="@+id/EditText21"
+            android:hint="@string/prompt_course"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/EditText22"
+            android:hint="@string/prompt_grade"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/EditText23"
+            android:hint="@string/prompt_weight"
+            android:textSize="16sp"/>
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <EditText
+            android:id="@+id/EditText31"
+            android:hint="@string/prompt_course"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/EditText32"
+            android:hint="@string/prompt_grade"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/EditText33"
+            android:hint="@string/prompt_weight"
+            android:textSize="16sp"/>
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <EditText
+            android:id="@+id/EditText41"
+            android:hint="@string/prompt_course"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/EditText42"
+            android:hint="@string/prompt_grade"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/EditText43"
+            android:hint="@string/prompt_weight"
+            android:textSize="16sp"/>
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablerowbuttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dip" >
+
+        <Button
+            android:id="@+id/buttonaddrow"
+            android:text="Add Entry"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/buttoncalc"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Calculate!" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/finalvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dip" >
+
+        <TextView
+            android:id="@+id/finalgpamsg"
+            android:text="Your calculated GPA: "
+            android:textSize="16sp"
+        />
+
+        <TextView
+            android:id="@+id/finalgpatext"
+            android:text="  "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </TableRow>
+
+
+</TableLayout>
